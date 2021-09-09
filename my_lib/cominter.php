@@ -15,7 +15,7 @@
 
         protected function sumci() { 
             $total_summ = $this->inisum * (1 + $this->percent/100)**$this->years;
-            return '<p>'.$total_summ.'</p>';
+            return $total_summ;
         }
 
         public function getSumci() {
